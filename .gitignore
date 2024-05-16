@@ -4,3 +4,4 @@
 .*.swp
 /_obj/
 /bazel-*
+MODULE.bazel*

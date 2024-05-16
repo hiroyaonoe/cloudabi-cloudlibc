@@ -4,14 +4,14 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "org_cloudabi_bazel_third_party",
-    commit = "91ca2167219c612a89334fa09ddf15fbdc5d0592",
-    remote = "https://github.com/NuxiNL/bazel-third-party.git",
+    commit = "042d5730e484e4895e97fa6950eedc14f9c74088",
+    remote = "https://github.com/hiroyaonoe/cloudabi-bazel-third-party.git",
 )
 
 git_repository(
     name = "org_cloudabi_bazel_toolchains_cloudabi",
-    commit = "6cda0c4219e3d71e1fe26faa946f19d837b42dc8",
-    remote = "https://github.com/NuxiNL/bazel-toolchains-cloudabi.git",
+    commit = "c7e4d6089ac01864b889568f7d56e18bf31c7684",
+    remote = "https://github.com/hiroyaonoe/cloudabi-bazel-toolchains-cloudabi.git",
 )
 
 load("@org_cloudabi_bazel_third_party//:third_party.bzl", "third_party_repositories")

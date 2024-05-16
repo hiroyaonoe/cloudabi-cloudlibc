@@ -1,2 +1,2 @@
-build --cpu=x86_64-unknown-cloudabi
-build --crosstool_top=@org_cloudabi_bazel_toolchains_cloudabi//:toolchain
+build --cpu=x86_64-unknown-cloudabi --incompatible_enable_cc_toolchain_resolution
+build --crosstool_top=@org_cloudabi_bazel_toolchains_cloudabi//:toolchain --incompatible_enable_cc_toolchain_resolution
