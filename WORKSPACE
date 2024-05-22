@@ -10,7 +10,7 @@ git_repository(
 
 git_repository(
     name = "org_cloudabi_bazel_toolchains_cloudabi",
-    commit = "6cda0c4219e3d71e1fe26faa946f19d837b42dc8",
+    commit = "a2fd1ad94eb51ff972d8db92792dbdeb0b227a24",
     remote = "https://github.com/NuxiNL/bazel-toolchains-cloudabi.git",
 )
 
